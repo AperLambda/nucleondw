@@ -1,0 +1,22 @@
+{
+  "name": "nucleondw",
+  "version": "1.0.0",
+  "description": "A digital workspace for schools.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AperLambda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AperLambda/nucleondw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AperLambda/nucleondw/issues"
+  },
+  "homepage": "https://github.com/AperLambda/nucleondw",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

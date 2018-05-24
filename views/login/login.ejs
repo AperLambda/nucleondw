@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('../head'); -%>
+  <link rel="stylesheet" type="text/css" href="/css/nucleondw.css">
+</head>
+<body>
+  <%- include('../header'); -%>
+  <div class = "loader-center-main">
+  <div class = "loader-center-wrapper">
+  <div class="loader-center">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <form action="/user_login/" method="post" class="loader-center">
+      <div class="input-field col s6">
+        <input placeholder="Username or email" id="username" type="text" class="validate" />
+        <label for="username">Username</label>
+      </div>
+      <button class="btn waves-effect waves-light green lighten-1" type="submit">Login</button>
+    </form>
+  </div>
+
+  <%- include('../footer'); -%>
+</body>
+</html>

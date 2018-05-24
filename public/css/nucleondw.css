@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.page-footer {
+  background-color: #60a3bc;
+}
+
+/*
+ *  LOADER
+ */
+
+.loader {
+  border: 12px solid #f3f3f3; /* Light grey */
+  border-top: 12px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+.loader-center {
+  margin: auto;
+  vertical-align: middle;
+  align-content: center;
+  text-align: center;
+}
+
+.loader-center-main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.loader-center-wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*
+ * FORMS
+ */
