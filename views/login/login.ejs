@@ -8,7 +8,7 @@
   <%- include('../header'); -%>
   <div class = "loader-center-main">
   <div class = "loader-center-wrapper">
-  <div class="loader-center">
+  <!--<div class="loader-center">
     <div class="preloader-wrapper big active">
       <div class="spinner-layer spinner-blue">
         <div class="circle-clipper left">
@@ -50,14 +50,27 @@
         </div>
       </div>
     </div>
-    <br />
-    <form action="/user_login/" method="post" class="loader-center">
-      <div class="input-field col s6">
-        <input placeholder="Username or email" id="username" type="text" class="validate" />
-        <label for="username">Username</label>
-      </div>
-      <button class="btn waves-effect waves-light green lighten-1" type="submit">Login</button>
-    </form>
+    <br />-->
+    <div class="row" style="margin: 50px;">
+      <form action="/user_login/" method="post" class="col s12 loader-center">
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Username or email" id="username" type="text" class="validate" />
+            <label for="username"><i class="material-icons">account_circle</i> Username</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Password" id="password" type="password" class="validate" />
+            <label for="password"></label>
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn waves-effect waves-light green lighten-1" type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+  </div>
   </div>
 
   <%- include('../footer'); -%>

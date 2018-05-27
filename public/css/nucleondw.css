@@ -14,6 +14,18 @@ footer {
   background-color: #60a3bc;
 }
 
+/**
+ * Content CSS
+ */
+#content-wrapper {
+  min-height: 100%;
+
+  /* sticky footer */
+  box-sizing: border-box;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+}
+
 /*
  *  LOADER
  */
